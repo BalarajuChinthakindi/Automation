@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 14 21:55:15 GMT 2021</td>
+<td>Started on:</td><td>Fri Jan 14 22:12:49 GMT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>109 seconds (109067 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105958 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,23 +80,25 @@ function toggleAllBoxes() {
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
 System info: host: &apos;LUK-5CG9273QRKA&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55643/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c976e52e406658726efcae0bfd5a22a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61490/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11824be9c7cfc53b30cf63d3e8baff
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+	at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 	at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace300804223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace300804223'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()=&apos;Already registered&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1756333997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1756333997'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()=&apos;Already registered&apos;] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
 System info: host: &apos;LUK-5CG9273QRKA&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55643/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c976e52e406658726efcae0bfd5a22a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61490/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11824be9c7cfc53b30cf63d3e8baff
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+	at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 	at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -128,7 +130,7 @@ Session ID: 4c976e52e406658726efcae0bfd5a22a
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>42</td>
-<td>testcases.ShoppingCartApplicationTests@173ed316</td></tr>
+<td>testcases.ShoppingCartApplicationTests@74ea2410</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -143,23 +145,25 @@ Session ID: 4c976e52e406658726efcae0bfd5a22a
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
 System info: host: &apos;LUK-5CG9273QRKA&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bd8773d576512ddbb1211242cc36f09
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58504/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e12af7a89ca870eb3c3181259e70a8d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+	at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 	at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1241878008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1241878008'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()=&apos;Already registered&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2075981552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2075981552'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()=&apos;Already registered&apos;] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
 System info: host: &apos;LUK-5CG9273QRKA&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bd8773d576512ddbb1211242cc36f09
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58504/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e12af7a89ca870eb3c3181259e70a8d
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+	at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 	at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -191,7 +195,7 @@ Session ID: 1bd8773d576512ddbb1211242cc36f09
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>42</td>
-<td>testcases.ShoppingCartApplicationTests@173ed316</td></tr>
+<td>testcases.ShoppingCartApplicationTests@74ea2410</td></tr>
 </table><p>
 </body>
 </html>

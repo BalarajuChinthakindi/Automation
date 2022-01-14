@@ -14,7 +14,7 @@ public class ShoppingCartApplicationTests extends BaseTest {
 	public void LoginTest()
 	{
 		HomePage.clickOnSignIn();
-		Assert.assertNotNull(Wait.waitForElementTobeDisplayed(HomePage.label_AlreadyRegistered),"Already Registered? label is not displayed");		
+		Assert.assertTrue(HomePage.isAlreadyRegisteredMessageDisplayed(),"Already Registered? label is not displayed");		
 	}
 
 }

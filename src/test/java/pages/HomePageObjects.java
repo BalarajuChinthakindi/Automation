@@ -2,10 +2,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import helpers.WebElementExtensions;
 
-public class HomePageObjects {
+
+public class HomePageObjects extends WebElementExtensions {
 	
 	WebDriver _driver;
 	
@@ -21,6 +21,11 @@ public class HomePageObjects {
     
     public void clickOnSignIn()
     {
-    	WebElementExtensions.clickButton(link_signin);
+    	clickButton(link_signin);
+    }
+    
+    public boolean isAlreadyRegisteredMessageDisplayed()
+    {
+    	return waitForElementTobeDisplayed(label_AlreadyRegistered).isDisplayed();
     }
 }

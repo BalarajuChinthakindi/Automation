@@ -2,16 +2,16 @@
 <testng-results retried="1" ignored="0" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-14T21:55:15 GMT" name="Suite" finished-at="2021-11-14T21:57:04 GMT" duration-ms="109067">
+  <suite started-at="2022-01-14T22:12:49 GMT" name="Suite" finished-at="2022-01-14T22:14:35 GMT" duration-ms="105958">
     <groups>
     </groups>
-    <test started-at="2021-11-14T21:55:15 GMT" name="Test" finished-at="2021-11-14T21:57:04 GMT" duration-ms="109067">
+    <test started-at="2022-01-14T22:12:49 GMT" name="Test" finished-at="2022-01-14T22:14:35 GMT" duration-ms="105958">
       <class name="testcases.ShoppingCartApplicationTests">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:55:15 GMT" name="beforeTestMethod" finished-at="2021-11-14T21:55:17 GMT" duration-ms="2113" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:12:49 GMT" name="beforeTestMethod" finished-at="2022-01-14T22:12:51 GMT" duration-ms="2363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String)[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:55:17 GMT" name="beforeMethod" finished-at="2021-11-14T21:55:28 GMT" duration-ms="10923" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String)[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:12:51 GMT" name="beforeMethod" finished-at="2022-01-14T22:13:01 GMT" duration-ms="9670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,26 +27,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method retried="true" signature="LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:55:28 GMT" name="LoginTest" finished-at="2021-11-14T21:56:10 GMT" duration-ms="42219" status="SKIP">
+        <test-method retried="true" signature="LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:13:01 GMT" name="LoginTest" finished-at="2022-01-14T22:13:43 GMT" duration-ms="42288" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()='Already registered'] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'LUK-5CG9273QRKA', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bd8773d576512ddbb1211242cc36f09]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58504/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e12af7a89ca870eb3c3181259e70a8d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()='Already registered'] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'LUK-5CG9273QRKA', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bd8773d576512ddbb1211242cc36f09
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58504/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e12af7a89ca870eb3c3181259e70a8d
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -82,18 +83,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:56:10 GMT" name="afterMethod" finished-at="2021-11-14T21:56:11 GMT" duration-ms="1133" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:13:43 GMT" name="afterMethod" finished-at="2022-01-14T22:13:44 GMT" duration-ms="1026" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SKIP method=ShoppingCartApplicationTests.LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=SKIP method=ShoppingCartApplicationTests.LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String)[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:56:11 GMT" name="beforeMethod" finished-at="2021-11-14T21:56:19 GMT" duration-ms="7502" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String)[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:13:44 GMT" name="beforeMethod" finished-at="2022-01-14T22:13:51 GMT" duration-ms="6289" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,26 +110,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:56:19 GMT" name="LoginTest" finished-at="2021-11-14T21:57:02 GMT" duration-ms="42822" status="FAIL">
+        <test-method signature="LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:13:51 GMT" name="LoginTest" finished-at="2022-01-14T22:14:33 GMT" duration-ms="42064" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()='Already registered'] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'LUK-5CG9273QRKA', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55643/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c976e52e406658726efcae0bfd5a22a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61490/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11824be9c7cfc53b30cf63d3e8baff]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h3[text()='Already registered'] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'LUK-5CG9273QRKA', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55643/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c976e52e406658726efcae0bfd5a22a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\balarchi\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61490}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61490/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d11824be9c7cfc53b30cf63d3e8baff
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at helpers.Wait.waitForElementTobeDisplayed(Wait.java:29)
+at pages.HomePageObjects.isAlreadyRegisteredMessageDisplayed(HomePageObjects.java:29)
 at testcases.ShoppingCartApplicationTests.LoginTest(ShoppingCartApplicationTests.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -164,18 +166,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:57:02 GMT" name="afterMethod" finished-at="2021-11-14T21:57:03 GMT" duration-ms="1426" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:14:33 GMT" name="afterMethod" finished-at="2022-01-14T22:14:34 GMT" duration-ms="1375" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=FAILURE method=ShoppingCartApplicationTests.LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=FAILURE method=ShoppingCartApplicationTests.LoginTest()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testcases.ShoppingCartApplicationTests@173ed316]" started-at="2021-11-14T21:57:03 GMT" name="afterTestMethod" finished-at="2021-11-14T21:57:04 GMT" duration-ms="538" status="PASS">
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testcases.ShoppingCartApplicationTests@74ea2410]" started-at="2022-01-14T22:14:34 GMT" name="afterTestMethod" finished-at="2022-01-14T22:14:35 GMT" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->

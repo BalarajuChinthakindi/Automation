@@ -11,25 +11,25 @@ import testcases.BaseTest;
 
 public class Wait {
 
-	public static WebElement waitForElementTobeClickable(By element)
+	public WebElement waitForElementTobeClickable(By element)
 	{
 		return (new WebDriverWait(BaseTest.driver, Duration.ofSeconds(Constants.maxWaitTime)))
 				   .until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
-	public static WebElement waitForElementTobeClickable(By element, int timeInSeconds)
+	public WebElement waitForElementTobeClickable(By element, int timeInSeconds)
 	{
 		return (new WebDriverWait(BaseTest.driver, Duration.ofSeconds(timeInSeconds)))
 				   .until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
-	public static WebElement waitForElementTobeDisplayed(By element)
+	public WebElement waitForElementTobeDisplayed(By element)
 	{
 		return (new WebDriverWait(BaseTest.driver, Duration.ofSeconds(Constants.maxWaitTime)))
 				   .until(ExpectedConditions.visibilityOfElementLocated(element));
 	}
 	
-	public static WebElement waitForElementTobeDisplayed(By element, int timeInSeconds)
+	public WebElement waitForElementTobeDisplayed(By element, int timeInSeconds)
 	{
 		return (new WebDriverWait(BaseTest.driver, Duration.ofSeconds(timeInSeconds)))
 				   .until(ExpectedConditions.visibilityOfElementLocated(element));
